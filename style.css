@@ -1,0 +1,87 @@
+/* Main Divs*/
+
+.blocks {
+    background-color:aquamarine;
+}
+.inlines {
+    background-color: cornflowerblue;
+}
+.both {
+    background-color: lightcoral;
+}
+.blocks, .inlines, .both{
+    border: 1px solid black;
+    margin:10px;
+    padding:10px;
+  text-align: center;
+}
+
+/* Block Divs*/
+.B1,.B2,.B3,.B4 {
+    border: 1px solid black;
+    margin: 3px;
+    display: block;
+    width:20%;
+}
+
+.B1 {
+    background-color: red;  
+}
+.B2 {
+    background-color: antiquewhite;
+}
+.B3 {
+    background-color: blue;
+}
+.B4 {
+    background-color: purple;
+}
+
+/* Inline Divs*/
+.I1,.I2,.I3,.I4 {
+    border: 1px solid black;
+    margin: 3px;
+    display: inline;
+    width: 20%;
+}
+
+.I1 {
+    background-color: red;  
+}
+.I2 {
+    background-color: antiquewhite;
+}
+.I3 {
+    background-color: blue;
+}
+.I4 {
+    background-color: purple;
+}
+/*Inline-Block Divs*/
+.IB1,.IB2,.IB3,.IB4 {
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+    width:20%;
+}
+
+.IB1 {
+    background-color: red;  
+}
+.IB2 {
+    background-color: antiquewhite;
+}
+.IB3 {
+    background-color: blue;
+}
+.IB4 {
+    background-color: purple;
+
+/* Positioning */
+
+
+/*Animations*/
+
+
+
+/* Flexing */
